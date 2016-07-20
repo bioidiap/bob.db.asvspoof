@@ -3,6 +3,8 @@
 # Pavel Korshunov <pavel.korshunov@idiap.ch>
 # Wed Nov 25 22:17:22 CEST 2015
 
+# This package iperates under BSD license, see file LICENSE 
+
 from setuptools import setup, dist
 
 dist.Distribution(dict(setup_requires=['bob.extension']))
@@ -58,7 +60,7 @@ setup(
         'Framework :: Bob',
         'Development Status :: 4 - Beta',
         'Intended Audience :: Science/Research',
-        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+        'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
