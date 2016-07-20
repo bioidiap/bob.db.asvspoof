@@ -18,12 +18,12 @@
 .. image:: http://img.shields.io/pypi/dm/bob.db.asvpoof.png
    :target: https://pypi.python.org/pypi/bob.db.asvpoof
 .. image:: https://img.shields.io/badge/original-data--files-a000a0.png
-   :target: https://www.idiap.ch/dataset/asvspoof
+   :target: http://datashare.is.ed.ac.uk/handle/10283/853
 
 
-====================================
- ASVspoof Database Interface for Bob
-====================================
+===================================
+ASVspoof Database Interface for Bob
+===================================
 
 This package contains a Bob-based access API for the ASVspoof_ Database. The database has been used in the first Automatic Speaker Verification Spoofing and Countermeasures Challenge (ASVspoof 2015). Genuine speech is collected from 106 speakers (45 male, 61 female) and with no significant channel or background noise effects. Spoofed speech is generated from the genuine data using a number of different spooﬁng algorithms. The full dataset is partitioned into three subsets, the first for training, the second for development, and the third for evaluation. More details can be found in the evaluation plan in the summary paper:
 
