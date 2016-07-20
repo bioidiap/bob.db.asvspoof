@@ -7,7 +7,6 @@ matrix:
     - secure: FISLXNHf2FSOdnCUUpcbxYx2rBsXtrY3YxH7AUTNDV1NrHBnQO+42VtEQZKjEzCquQp/JRzDHORMB1yDxLCxm1vCyIdGNNiDD7IfcmXDnCdKR6glqMGLPzOmRmy4ifnsdtzP9RYbrqYPoeoeynBufCPF2BOohHIXGorMJqqNjdgX2+j52WvEgD5SP+o5x4cuz3QMYPenveltAKN2bLA2F3Cmi7qJfVzw1e68rUZ6VCSzeBPoWypHR8QWcYsJP4585l424jPg0Di49Ypi7dGj5bD3eLOVvaUSnWhf8e+lpqBNwM0Lxskliu+jv9szjp229V97puXEcfuFQy3eYbyj7UqpUlqgNPis/a59IiLc4lXKigPyBFW7ox5NZXLwjo8oOg4rfidksnrjhP8E7nk6/3WM+8EpAf9vjkPNUxLD0cyUR9gmN+FUMwWRHm7319JDoDLj+alBbcm53MsvUOySFIZify10LCqEsXBlcM6mM/bpf/h5RkAWrwIDznwm1NuSADMx44Pf4y5s9suLWZLXRRkwpqw0SKVmPc87s13BM2mwngYHbvRK1wx7kvpE8sn6hfFM2iOcdYoLrGkWhe+8arRdKX0/Uk00urIbDQrVGqfJ6vFbQkxjPwGOo33+cxhXVoaxF4q4smVbNZcENIHcA+GhlZ1jOneXF0H91A5DOBM= 
     - BOB_DOCUMENTATION_SERVER=https://www.idiap.ch/software/bob/docs/latest/bioidiap/%s/master
     - BOB_UPLOAD_WHEEL="--universal"
-  - python: 3.3
   - python: 3.4
   - python: 3.5
 before_install:
