@@ -1,0 +1,7 @@
+setuptools
+six
+sqlalchemy
+bob.io.base
+bob.db.base
+antispoofing.utils
+bob.db.verification.utils
