@@ -7,7 +7,7 @@
    :target: http://pythonhosted.org/bob.db.asvspoof/index.html
 .. image:: http://img.shields.io/badge/docs-latest-orange.png
    :target: https://www.idiap.ch/software/bob/docs/latest/bioidiap/bob.db.asvspoof/master/index.html
-.. image:: https://travis-ci.org/bioidiap/bob.db.asvspoof.svg?branch=master
+.. image:: https://travis-ci.org/bioidiap/bob.db.asvspoof.svg?branch=v1.0.0
    :target: https://travis-ci.org/bioidiap/bob.db.asvspoof
 .. image:: https://coveralls.io/repos/bioidiap/bob.db.asvspoof/badge.png
    :target: https://coveralls.io/r/bioidiap/bob.db.asvspoof
