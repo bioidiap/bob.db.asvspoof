@@ -4,19 +4,19 @@
 
 
 .. image:: http://img.shields.io/badge/docs-stable-yellow.png
-   :target: http://pythonhosted.org/bob.db.asvpoof/index.html
+   :target: http://pythonhosted.org/bob.db.asvspoof/index.html
 .. image:: http://img.shields.io/badge/docs-latest-orange.png
-   :target: https://www.idiap.ch/software/bob/docs/latest/bioidiap/bob.db.asvpoof/master/index.html
-.. image:: https://travis-ci.org/bioidiap/bob.db.asvpoof.svg?branch=master
-   :target: https://travis-ci.org/bioidiap/bob.db.asvpoof
-.. image:: https://coveralls.io/repos/bioidiap/bob.db.asvpoof/badge.png
-   :target: https://coveralls.io/r/bioidiap/bob.db.asvpoof
+   :target: https://www.idiap.ch/software/bob/docs/latest/bioidiap/bob.db.asvspoof/master/index.html
+.. image:: https://travis-ci.org/bioidiap/bob.db.asvspoof.svg?branch=master
+   :target: https://travis-ci.org/bioidiap/bob.db.asvspoof
+.. image:: https://coveralls.io/repos/bioidiap/bob.db.asvspoof/badge.png
+   :target: https://coveralls.io/r/bioidiap/bob.db.asvspoof
 .. image:: https://img.shields.io/badge/github-master-0000c0.png
-   :target: https://github.com/bioidiap/bob.db.asvpoof/tree/master
-.. image:: http://img.shields.io/pypi/v/bob.db.asvpoof.png
-   :target: https://pypi.python.org/pypi/bob.db.asvpoof
-.. image:: http://img.shields.io/pypi/dm/bob.db.asvpoof.png
-   :target: https://pypi.python.org/pypi/bob.db.asvpoof
+   :target: https://github.com/bioidiap/bob.db.asvspoof/tree/master
+.. image:: http://img.shields.io/pypi/v/bob.db.asvspoof.png
+   :target: https://pypi.python.org/pypi/bob.db.asvspoof
+.. image:: http://img.shields.io/pypi/dm/bob.db.asvspoof.png
+   :target: https://pypi.python.org/pypi/bob.db.asvspoof
 .. image:: https://img.shields.io/badge/original-data--files-a000a0.png
    :target: http://datashare.is.ed.ac.uk/handle/10283/853
 
@@ -63,7 +63,7 @@ The data can be downloaded from its original ASVspoof_ URL.
 
 Documentation
 -------------
-For further documentation on this package, please read the `Stable Version <http://pythonhosted.org/bob.db.asvpoof/index.html>`_ or the `Latest Version <https://www.idiap.ch/software/bob/docs/latest/bioidiap/bob.db.asvpoof/master/index.html>`_ of the documentation.
+For further documentation on this package, please read the `Stable Version <http://pythonhosted.org/bob.db.asvspoof/index.html>`_ or the `Latest Version <https://www.idiap.ch/software/bob/docs/latest/bioidiap/bob.db.asvspoof/master/index.html>`_ of the documentation.
 For a list of tutorials on this or the other packages ob Bob_, or information on submitting issues, asking questions and starting discussions, please visit its website.
 
 
