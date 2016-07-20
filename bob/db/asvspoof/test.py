@@ -86,7 +86,8 @@ class ASVspoofDatabaseTest(unittest.TestCase):
 
     @db_available
     def test06_queryEnrollASV(self):
-        self.queryGroupsProtocolsTypes('ASV-male',  'enroll', 0, 5, 0)
+        self.queryGroupsProtocolsTypes('ASV-male',  'enroll', 0, 75, 100)
+        self.queryGroupsProtocolsTypes('ASV-female',  'enroll', 0, 100, 130)
 
     @db_available
     def test07_queryRealASVFemale(self):
@@ -115,18 +116,18 @@ class ASVspoofDatabaseTest(unittest.TestCase):
 
     @db_available
     def test10_queryEnrollmentsASVFemale(self):
-        self.queryEnrollments('ASV-female', 5)
+        self.queryEnrollments('ASV-female', 230)
 
     @db_available
     def test11_queryEnrollmentsASVMale(self):
-        self.queryEnrollments('ASV-male', 5)
+        self.queryEnrollments('ASV-male', 175)
 
     @db_available
     def test12_queryClients(self):
 
         db = Database()
         f = db.clients()
-        self.assertEqual(len(f), 106)  # 106 clients
+        self.assertEqual(len(f), 107)  # 106 clients
         self.assertTrue(db.has_client_id('D19'))
         self.assertFalse(db.has_client_id('E50'))
         self.assertTrue(db.has_client_id('E27'))
@@ -145,7 +146,7 @@ class ASVspoofDatabaseTest(unittest.TestCase):
         self.assertNotIn('E11', clients)
 
         f = db.clients(gender='female')
-        self.assertEqual(len(f), 46)  # 13 female clients
+        self.assertEqual(len(f), 46)  # 46 female clients
         clients = []
         for c in f:
             clients.append(c.id)
