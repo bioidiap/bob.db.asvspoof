@@ -3,7 +3,7 @@
 # Pavel Korshunov <pavel.korshunov@idiap.ch>
 # Wed Nov 25 22:17:22 CEST 2015
 
-# This package iperates under BSD license, see file LICENSE 
+# This package iperates under BSD license, see file LICENSE
 
 from setuptools import setup, dist
 
@@ -23,8 +23,8 @@ setup(
     name='bob.db.asvspoof',
     version=version,
     description='ASVspoof Database Access API for Bob',
-    url='http://pypi.python.org/pypi/bob.db.asvspoof',
-    license='GPLv3',
+    url='http://gitlab.idiap.ch/bob/bob.db.asvspoof',
+    license='BSD',
     author='Pavel Korshunov',
     author_email='pavel.korshunov@idiap.ch',
     long_description=open('README.rst').read(),
