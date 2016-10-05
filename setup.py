@@ -44,16 +44,6 @@ setup(
         'bob.db': [
             'asvspoof = bob.db.asvspoof.driver:Interface',
         ],
-
-        # antispoofing database declaration
-        'antispoofing.utils.db': [
-            'asvspoof = bob.db.asvspoof.spoofing:Database',
-        ],
-
-        # verification database declaration
-        'bob.db.verification.utils': [
-            'asvspoof-verify = bob.db.asvspoof.verification:Database',
-        ],
     },
 
     classifiers=[

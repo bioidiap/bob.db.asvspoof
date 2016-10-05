@@ -56,9 +56,9 @@ The config file (other ways to defined the database are also available in Bob_, 
 
 .. code-block:: python
 
-	import bob.bio.db
+	import bob.bio.base
 	asvspoof_input_dir = "PATH_TO_DATA"
-	database = bob.bio.db.ASVspoofBioDatabase(
+	database = bob.bio.base.database.ASVspoofBioDatabase(
 	    protocol = 'ASV',
 	    original_directory=asvspoof_input_dir,
 	    original_extension=".wav",
