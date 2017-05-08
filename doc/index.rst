@@ -33,7 +33,7 @@ Once the interface package is installed, SQL database file need to be downloaded
 
 .. code-block:: sh
 
-    $ .bin/bob_dbmanage.py asvspoof download
+    $ bob_dbmanage.py asvspoof download
 
 
 This interface can be used to directly query and access the database protocols and samples, or/and in verification `bob.bio.` and PAD `bob.pad.` frameworks of Bob toolkit.
@@ -42,7 +42,7 @@ The database filelist can be queried via the following command line:
 
 .. code-block:: sh
 
-    $ .bin/bob_dbmanage.py asvspoof dumplist --help
+    $ bob_dbmanage.py asvspoof dumplist --help
 
 To use the database in verification experiments within `bob.bio.` framework, a `bob.bio.database` entry point need to be defined in the `setup.py` file of the package that would run these experiments as so, as follows:
 
